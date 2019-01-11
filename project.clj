@@ -7,4 +7,5 @@
                  [org.clojure/clojure "1.10.0"]]
   :profiles
   {:dev {:source-paths ["dev/src"]
-         :dependencies [[org.clojure/tools.namespace "0.2.11"]]}})
+         :dependencies [[orchestra "2018.12.06-2"]
+                        [org.clojure/tools.namespace "0.2.11"]]}})

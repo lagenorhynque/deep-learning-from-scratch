@@ -1,8 +1,8 @@
 (ns user
   (:require [clojure.repl :refer :all]
             [clojure.spec.alpha :as s]
-            [clojure.spec.test.alpha :as stest]
-            [clojure.tools.namespace.repl]))
+            [clojure.tools.namespace.repl]
+            [orchestra.spec.test :as stest]))
 
 (defn refresh [& options]
   (let [result (apply clojure.tools.namespace.repl/refresh options)]
