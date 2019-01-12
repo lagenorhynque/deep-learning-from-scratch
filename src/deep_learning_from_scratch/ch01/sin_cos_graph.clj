@@ -3,7 +3,7 @@
             [incanter [charts :as charts] [core :as incanter]]))
 
 (defn -main []
-  (m/set-current-implementation :vectorz)
+  (m/set-current-implementation :clatrix)
   (let [x (m/array (range 0 6 0.1))
         y1 (m/sin x)
         y2 (m/cos x)]
