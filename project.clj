@@ -6,8 +6,8 @@
   :dependencies [[clatrix "0.5.0"]
                  [incanter "1.9.3"]
                  [net.mikera/core.matrix "0.62.0"]
-                 [org.clojure/clojure "1.10.0"]]
+                 [org.clojure/clojure "1.10.1"]]
   :profiles
   {:dev {:source-paths ["dev/src"]
          :dependencies [[orchestra "2019.02.06-1"]
-                        [org.clojure/tools.namespace "0.2.11"]]}})
+                        [org.clojure/tools.namespace "1.0.0"]]}})
