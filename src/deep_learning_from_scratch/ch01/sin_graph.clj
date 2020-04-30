@@ -1,6 +1,7 @@
 (ns deep-learning-from-scratch.ch01.sin-graph
   (:require [clojure.core.matrix :as m]
-            [incanter [charts :as charts] [core :as incanter]]))
+            [incanter.charts :as charts]
+            [incanter.core :as incanter]))
 
 (defn -main []
   (m/set-current-implementation :clatrix)

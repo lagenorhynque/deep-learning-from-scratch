@@ -1,6 +1,7 @@
 (ns deep-learning-from-scratch.ch03.step-function
   (:require [clojure.core.matrix :as m]
-            [incanter [charts :as charts] [core :as incanter]]))
+            [incanter.charts :as charts]
+            [incanter.core :as incanter]))
 
 (defn step-function [x]
   (m/gt x 0))
